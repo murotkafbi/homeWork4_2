@@ -87,6 +87,17 @@ public class Main {
         for(int friday = firstFriday; friday <= 31; friday += 7) {
             System.out.println("Сегодня пятница, " + friday + "-e число. Необходимо подготовить отчет");
         }
+// Задание 8
+        System.out.println("Задание 8");
+        int currentYear = 2023;
+        int start = currentYear - 200 ;
+        int end = currentYear - 100 ;
+        int period = 70 ;
+        int firstTimeAppeared = 0;
+        for (int year = start; year <= end; year++) {
+            if (year% period == firstTimeAppeared) {
+                System.out.print(year   );
+            }
 
     }
     }
